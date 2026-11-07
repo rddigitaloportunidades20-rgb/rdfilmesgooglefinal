@@ -22,7 +22,7 @@ export const WHATSAPP_POOLS = {
 };
 
 export const WHATSAPP_MODAL_CONFIG = {
-  ativo: true,
+  ativo: false,
   modelo: 1 as 1 | 2,
   nomeObrigatorio: false,
   telefoneObrigatorio: true,
