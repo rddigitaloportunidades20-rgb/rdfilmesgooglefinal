@@ -17,9 +17,9 @@
  * As variáveis VITE_GESTAUTO_* (se definidas no ambiente de build) têm prioridade;
  * servem para testes locais sem editar este arquivo.
  */
-const BASE_URL = 'COLOQUE_URL_DA_API_GESTAUTO_AQUI';
-const SITE_KEY = 'COLOQUE_SUA_SITE_KEY_AQUI';
-const PREFIXO = 'ADS';
+const BASE_URL = 'https://rdfilmes.gestauto.top';
+const SITE_KEY = 'pk_mkt_a56e1ec0772571203c4d';
+const PREFIXO = 'RDADS';
 const AMBIENTE = 'PRODUCAO';
 
 // Cada variável é lida individualmente: assim o Vite embute só estas quatro no bundle.
