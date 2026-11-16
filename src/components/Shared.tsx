@@ -113,7 +113,7 @@ export function Footer() {
         <div className="text-[11px] leading-relaxed">
           <strong className={`${isBlog ? 'text-white' : 'text-brand-primary'} block mb-2 uppercase tracking-widest opacity-50`}>Contato & Suporte</strong>
           <div className={isBlog ? 'text-slate-500' : 'text-slate-500'}>
-            Responsável: {SITE_CONFIG.name}<br />
+            Responsável: {SITE_CONFIG.responsible}<br />
             E-mail: {SITE_CONFIG.email}<br />
             Telefone: {SITE_CONFIG.phone}<br />
             {SITE_CONFIG.address}<br />
@@ -133,7 +133,7 @@ export function Footer() {
           </div>
           <div className="text-slate-400 mt-2">
             {SITE_CONFIG.copyright}<br />
-            CNPJ: {SITE_CONFIG.cnpj}
+CPF: {SITE_CONFIG.cpf}
           </div>
         </div>
       </div>

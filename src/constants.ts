@@ -2,9 +2,9 @@
  * Configuration for WhatsApp rotation and site constants
  */
 
-// Número de WhatsApp (API oficial): (61) 3199-9751 → formato internacional 556131999751.
+// Número de WhatsApp: (43) 99856-1481 → formato internacional 5543998561481.
 // Para adicionar mais números no futuro, basta incluí-los na lista do pool desejado.
-const WHATSAPP_OFICIAL = "556131999751"; // (61) 3199-9751
+const WHATSAPP_OFICIAL = "5543998561481"; // (43) 99856-1481
 
 export const WHATSAPP_POOLS = {
   TESTE: [
@@ -39,10 +39,11 @@ export const WHATSAPP_MODAL_CONFIG = {
 
 export const SITE_CONFIG = {
   name: "RD Filmes In View",
-  email: "rddigitaloportunidades20@gmail.com",
-  phone: "(61) 3199-9751",
-  address: "Atendimento 100% online em todo o Brasil",
-  cnpj: "31.059.013/0001-60",
+  responsible: "Marcos Rodrigo Lourenço Soares",
+  email: "rdgraficooportunidades20@gmail.com",
+  phone: "(43) 99856-1481",
+  address: "QR 306 Conjunto 10 Casa 01 — Samambaia/DF — CEP 72306-310",
+  cpf: "002.110.941-96",
   description: "RD Filmes In View - Portal informativo de recomendações de filmes e séries. Conteúdo 100% legal.",
   regionTitle: "Atendimento online em todo o Brasil",
   footerDisclaimer: "Este site não hospeda, transmite ou disponibiliza conteúdos audiovisuais. Apenas publicamos informações e recomendamos plataformas oficiais.",
