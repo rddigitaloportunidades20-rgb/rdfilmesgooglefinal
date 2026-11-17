@@ -3,11 +3,12 @@
 @theme {
   --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  
-  --color-brand-primary: #111827;
-  --color-brand-accent: #2563eb;
+
+  /* V2 — Laranja Energia */
+  --color-brand-primary: #431407;
+  --color-brand-accent: #ea580c;
   --color-brand-success: #25d366;
-  --color-brand-bg: #f9fafb;
+  --color-brand-bg: #fff7ed;
 
   @keyframes flash {
     0%, 100% { opacity: 1; }
@@ -30,9 +31,9 @@
 
 @layer components {
   .info-card-dark {
-    @apply bg-[#111827] border border-[#1f2a3e] p-8 rounded-3xl transition-all duration-300 hover:border-[#E50914] flex flex-col items-center text-center;
+    @apply bg-[#1c1917] border border-[#292524] p-8 rounded-3xl transition-all duration-300 hover:border-[#ea580c] flex flex-col items-center text-center;
   }
-  
+
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
@@ -47,11 +48,11 @@
 }
 
 .card-sleek {
-  @apply bg-white border border-slate-200 rounded-xl p-5 shadow-sm;
+  @apply bg-white border border-orange-100 rounded-xl p-5 shadow-sm;
 }
 
 .btn-sleek-primary {
-  @apply bg-brand-accent text-white px-8 py-4 rounded-lg font-bold text-lg uppercase tracking-wider shadow-lg shadow-blue-200 transition-all duration-300 ease-in-out hover:opacity-90;
+  @apply bg-brand-accent text-white px-8 py-4 rounded-lg font-bold text-lg uppercase tracking-wider shadow-lg shadow-orange-200 transition-all duration-300 ease-in-out hover:opacity-90;
 }
 
 .btn-sleek-whatsapp {
@@ -59,9 +60,9 @@
 }
 
 .badge-sleek {
-  @apply border border-slate-300 px-3 py-2 rounded-md text-xs text-slate-600 bg-white flex items-center gap-2 font-medium;
+  @apply border border-orange-200 px-3 py-2 rounded-md text-xs text-orange-700 bg-white flex items-center gap-2 font-medium;
 }
 
 .countdown-sleek {
-  @apply font-mono bg-red-100 text-red-800 px-2 py-1 rounded font-bold;
+  @apply font-mono bg-orange-100 text-orange-800 px-2 py-1 rounded font-bold;
 }

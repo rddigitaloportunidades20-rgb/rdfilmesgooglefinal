@@ -73,19 +73,19 @@ export function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-brand-primary mb-4 tracking-tight">Sobre o RD Filmes In View</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-brand-primary mb-4 tracking-tight">Sobre o Filmes My View</h1>
         <p className="text-lg text-slate-500 max-w-2xl mx-auto">Um guia informativo independente para quem quer encontrar filmes e séries em plataformas legais.</p>
       </div>
 
       <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-12 text-sm text-blue-800 leading-relaxed">
-        <strong>Aviso de transparência:</strong> O RD Filmes In View é um guia informativo independente. <strong>Não vendemos IPTV, listas de canais, login, senha, streaming próprio, downloads, desbloqueios ou acesso a filmes, séries e canais.</strong> Nosso objetivo é exclusivamente orientar usuários sobre onde encontrar conteúdos em plataformas oficiais e legais.
+        <strong>Aviso de transparência:</strong> O Filmes My View é um guia informativo independente. <strong>Não vendemos IPTV, listas de canais, login, senha, streaming próprio, downloads, desbloqueios ou acesso a filmes, séries e canais.</strong> Nosso objetivo é exclusivamente orientar usuários sobre onde encontrar conteúdos em plataformas oficiais e legais.
       </div>
 
       <div className="space-y-12 text-left mb-16">
         <div>
-          <h2 className="text-2xl font-bold text-brand-primary mb-4">O que é o RD Filmes In View?</h2>
+          <h2 className="text-2xl font-bold text-brand-primary mb-4">O que é o Filmes My View?</h2>
           <p className="text-slate-600 leading-relaxed">
-            O <strong>RD Filmes In View</strong> é um portal informativo e independente criado para ajudar usuários a descobrirem onde encontrar filmes e séries de forma legal e segura. Atuamos como um guia de referência, orientando sobre plataformas de streaming oficiais disponíveis no Brasil e no mundo.
+            O <strong>Filmes My View</strong> é um portal informativo e independente criado para ajudar usuários a descobrirem onde encontrar filmes e séries de forma legal e segura. Atuamos como um guia de referência, orientando sobre plataformas de streaming oficiais disponíveis no Brasil e no mundo.
           </p>
         </div>
 
@@ -155,10 +155,10 @@ export function AvisoLegalPage() {
       </div>
 
       <h2 className="text-xl font-bold mt-8 mb-4">1. Natureza do Serviço</h2>
-      <p>O <strong>RD Filmes In View</strong> é um guia informativo independente. Não somos representantes oficiais de Netflix, Prime Video, Disney+, Max, Globoplay ou qualquer outra plataforma de streaming, salvo indicação expressa.</p>
+      <p>O <strong>Filmes My View</strong> é um guia informativo independente. Não somos representantes oficiais de Netflix, Prime Video, Disney+, Max, Globoplay ou qualquer outra plataforma de streaming, salvo indicação expressa.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">2. O que não oferecemos</h2>
-      <p>O RD Filmes In View <strong>não vende</strong> e <strong>não oferece</strong>:</p>
+      <p>O Filmes My View <strong>não vende</strong> e <strong>não oferece</strong>:</p>
       <ul>
         <li>IPTV ou qualquer serviço de transmissão de canais</li>
         <li>Listas de canais ou conteúdo audiovisual</li>
@@ -170,10 +170,10 @@ export function AvisoLegalPage() {
       </ul>
 
       <h2 className="text-xl font-bold mt-8 mb-4">3. Propriedade Intelectual</h2>
-      <p>Todas as marcas, logotipos e nomes de plataformas mencionados neste site (como Netflix, Prime Video, Disney+, Max, Globoplay, entre outros) pertencem aos seus respectivos proprietários. O RD Filmes In View não possui qualquer vínculo oficial com essas marcas.</p>
+      <p>Todas as marcas, logotipos e nomes de plataformas mencionados neste site (como Netflix, Prime Video, Disney+, Max, Globoplay, entre outros) pertencem aos seus respectivos proprietários. O Filmes My View não possui qualquer vínculo oficial com essas marcas.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">4. Limitação de Responsabilidade</h2>
-      <p>As informações disponibilizadas neste site têm caráter exclusivamente informativo. O RD Filmes In View não se responsabiliza por decisões tomadas com base nas orientações aqui apresentadas, nem pela disponibilidade de conteúdos nas plataformas indicadas, que pode variar a qualquer momento.</p>
+      <p>As informações disponibilizadas neste site têm caráter exclusivamente informativo. O Filmes My View não se responsabiliza por decisões tomadas com base nas orientações aqui apresentadas, nem pela disponibilidade de conteúdos nas plataformas indicadas, que pode variar a qualquer momento.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">5. Conformidade Legal</h2>
       <p>Este site opera em conformidade com a legislação brasileira vigente, incluindo o Marco Civil da Internet (Lei nº 12.965/2014), a Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e as demais normas aplicáveis.</p>
@@ -191,15 +191,15 @@ export function DireitosAutoraisPage() {
       <h1 className="text-3xl font-extrabold text-brand-primary mb-8">Direitos Autorais</h1>
 
       <h2 className="text-xl font-bold mt-8 mb-4">1. Sobre o Conteúdo deste Site</h2>
-      <p>O <strong>RD Filmes In View</strong> não hospeda, transmite, armazena, vende ou distribui filmes, séries, canais ou qualquer conteúdo protegido por direitos autorais.</p>
+      <p>O <strong>Filmes My View</strong> não hospeda, transmite, armazena, vende ou distribui filmes, séries, canais ou qualquer conteúdo protegido por direitos autorais.</p>
       <p>Nosso objetivo é exclusivamente orientar usuários sobre plataformas oficiais onde determinados conteúdos podem estar disponíveis legalmente.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">2. Marcas e Logotipos de Terceiros</h2>
-      <p>Eventuais menções a marcas como Netflix, Prime Video, Disney+, Max, Globoplay, Apple TV+, Paramount+, entre outras, são feitas apenas para fins informativos e de referência. O RD Filmes In View não possui vínculo oficial com essas plataformas e não representa nenhuma delas.</p>
+      <p>Eventuais menções a marcas como Netflix, Prime Video, Disney+, Max, Globoplay, Apple TV+, Paramount+, entre outras, são feitas apenas para fins informativos e de referência. O Filmes My View não possui vínculo oficial com essas plataformas e não representa nenhuma delas.</p>
       <p>Todos os nomes, logotipos e marcas registradas citados pertencem exclusivamente aos seus respectivos proprietários.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">3. Conteúdo Próprio</h2>
-      <p>Os textos, guias, listas e recomendações produzidos pela equipe do RD Filmes In View são de autoria própria e protegidos por direitos autorais. É vedada a reprodução total ou parcial sem autorização prévia por escrito.</p>
+      <p>Os textos, guias, listas e recomendações produzidos pela equipe do Filmes My View são de autoria própria e protegidos por direitos autorais. É vedada a reprodução total ou parcial sem autorização prévia por escrito.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">4. Notificação de Infração</h2>
       <p>Se você acredita que algum conteúdo deste site viola direitos autorais, entre em contato pelo e-mail <strong>{SITE_CONFIG.email}</strong> com as informações necessárias para análise e providências cabíveis.</p>
@@ -241,8 +241,7 @@ export function ContactPage() {
               <h3 className="font-bold text-brand-primary">WhatsApp</h3>
             </div>
             <p className="text-slate-500 text-sm mb-2">Dúvidas e orientações:</p>
-            <p className="text-brand-success font-bold">{SITE_CONFIG.phone}</p>
-            <p className="text-slate-400 text-xs mt-1">Também disponível no botão flutuante</p>
+            <p className="text-brand-success font-bold">Disponível no botão flutuante</p>
           </div>
 
           <div className="bg-white p-8 rounded-3xl shadow-soft border border-slate-100">

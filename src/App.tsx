@@ -14,7 +14,7 @@ import { ComprarPage } from './pages/Comprar';
 import { CompletoPage } from './pages/Completo';
 import { PrivacyPage, TermsPage, AboutPage, ContactPage, AvisoLegalPage, DireitosAutoraisPage } from './pages/Legal';
 
-// Fires Google Ads conversion on every WhatsApp link click across all pages
+// Dispara a conversão do Google Ads em todo clique de link de WhatsApp (wa.me)
 function WhatsAppConversionTracker() {
   useEffect(() => {
     function handleClick(e: MouseEvent) {
@@ -31,7 +31,6 @@ function WhatsAppConversionTracker() {
   return null;
 }
 
-// Scroll to top on route change
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -42,13 +41,13 @@ function ScrollToTop() {
 
 function AppContent() {
   const location = useLocation();
-  const isLandingPage = location.pathname === '/saibamais' || location.pathname === '/planos' || location.pathname === '/sabermais';
-  const isTestePage = location.pathname === '/saibamais';
+  const hideNavbar = location.pathname === '/saibamais' || location.pathname === '/planos' || location.pathname === '/sabermais';
+  const hideFooter = hideNavbar || location.pathname === '/' || location.pathname === '/blog' || location.pathname.startsWith('/blog');
   const isLandingWithWhatsApp = location.pathname === '/saibamais' || location.pathname === '/sabermais';
 
   return (
     <div className="flex flex-col min-h-screen">
-      {!isLandingPage && <Navbar />}
+      {!hideNavbar && <Navbar />}
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<BlogHome />} />
@@ -65,7 +64,7 @@ function AppContent() {
           <Route path="/direitos-autorais" element={<DireitosAutoraisPage />} />
         </Routes>
       </main>
-      {!isLandingPage && <Footer />}
+      {!hideFooter && <Footer />}
       {isLandingWithWhatsApp && <WhatsAppButton />}
     </div>
   );

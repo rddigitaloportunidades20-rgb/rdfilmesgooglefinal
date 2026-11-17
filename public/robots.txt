@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rdfilmesinview.site/sitemap.xml
+Sitemap: https://filmesmyview.com/sitemap.xml
