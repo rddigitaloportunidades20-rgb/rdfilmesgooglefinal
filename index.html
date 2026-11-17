@@ -18,6 +18,33 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="RD Filmes In View — Guia de Filmes e Séries" />
     <meta name="twitter:description" content="Portal informativo independente sobre filmes e séries em plataformas oficiais e legais." />
+
+    <!-- Google tag (gtag.js) — Google Ads AW-616473026 -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=AW-616473026"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+
+    <!-- Conversão secundária: clique de SAÍDA para o WhatsApp.
+         O site só chama gtag_report_conversion() em cliques de links wa.me
+         (src/App.tsx, WhatsAppConversionTracker). Sem 'url': não navega aqui;
+         quem abre o WhatsApp é o GestAuto (src/gestauto/mkt.ts). -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-616473026/PSZsCMbc5LkdEMLD-qUC',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
